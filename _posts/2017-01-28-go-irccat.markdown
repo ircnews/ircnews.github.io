@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "irccloud/irccat: cat to IRC"
+link: https://github.com/irccloud/irccat
+categories: link
+---
+> A reimplementation of irccat, the original ChatOps tool, in Go. irccat lets you easily send events to IRC channels from scripts and other applications.

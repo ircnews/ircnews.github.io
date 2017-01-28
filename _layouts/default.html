@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        {% if page.title %}
+            {{ page.title }}
+            {% unless page.override_title %} | {% endunless %}
+        {% endif %}
+        {% unless page.override_title %}{{ site.title }}{% endunless %}
+    </title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+</head>
+<body>
+
+<header>
+    <section>
+        <h1 class="header">
+        <a class="header__link" href="/">
+        <img class="header__logo" src="/assets/img/logo@1x.png" srcset="/assets/img/logo@2x.png 2x" width="39" height="36">
+        <span class="header__title">{{ site.title }}</span>
+        </a>
+        </h1>
+        <div class="header__strap">{{ site.description }}</div>
+    </section>
+</header>
+
+<div class="content">
+
+<section>
+
+{{ content }}
+
+</section>
+
+<footer>
+    <section>
+        © {{ site.title }} {{ site.time|date:"%Y" }}
+    </section>
+</footer>
+
+</div>
+
+</body>
+</html>

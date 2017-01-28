@@ -1,0 +1,134 @@
+:root {
+  --main-hue: 215;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    color: #222;
+    font-weight: 400;
+    /*background-image: url('Pattern@2x.png');*/
+    background-size: 20px 29px;
+    background-position: 2px 2px;
+    background-color: hsl(var(--main-hue), 55%, 95%);
+
+}
+header {
+    padding: 1em 0;
+    margin: 0;
+    background-color: hsla(var(--main-hue), 55%, 25%, 0.98);
+    border-top: 10px solid hsl(var(--main-hue), 55%, 35%);
+    box-shadow: 0 1px 0 hsl(var(--main-hue), 55%, 25%);
+}
+header,
+.header__link {
+    color: hsl(var(--main-hue), 55%, 75%);
+    text-decoration: none;
+}
+.header__link:hover {
+    color: hsl(var(--main-hue), 55%, 95%);
+}
+
+header section,
+.content {
+    max-width: 50em;
+    margin: 0 auto;
+    padding: 1px 160px;
+}
+.content {
+    margin-top: 1px;
+    margin-bottom: 4em;
+    background: #fff;
+    border: 1px solid hsl(var(--main-hue), 55%, 90%);
+    border-width: 0 1px 1px 1px;
+    border-radius: 0 0 5px 5px;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    font-weight: 400;
+}
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.3em;
+}
+h3 {
+    font-size: 1.1em;
+}
+h4 {
+    font-size: 1em;
+}
+.header {
+    position: relative;
+    margin: 0;
+    line-height: 1.5em;
+}
+.header__title {
+    text-shadow: 1px 1px 1px hsla(188, 55%, 0%, 1);
+}
+.header__logo {
+    position: absolute;
+    top: 8px;
+    left: -55px;
+}
+.header__strap {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.post {
+    position: relative;
+    margin: 2em 0;
+}
+.postTitle::before {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    font-size: 1em;
+    content: '📝';
+}
+.postLink .postTitle::before {
+    content: '🔗';
+}
+
+blockquote {
+    margin: 0;
+    padding: 0 0 0 0.75em;
+    border-left: 5px solid #ddd;
+    color: #666;
+}
+
+.postLink {
+    text-decoration: none;
+}
+.postLink:hover .postInfo {
+    text-decoration: underline;
+}
+.postTitle {
+    color: #222;
+}
+
+.postInfo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+.postPermalink {
+    position: absolute;
+    top: 5px;
+    left: -120px;
+    font-size: 0.9em;
+    color: #999;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.postPermalink:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+footer {
+    background: #fff;
+    margin: 1em 0;
+    padding: 1em 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+}
