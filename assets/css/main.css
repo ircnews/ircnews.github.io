@@ -9,23 +9,23 @@ body {
     /*background-image: url('Pattern@2x.png');*/
     background-size: 20px 29px;
     background-position: 2px 2px;
-    background-color: hsl(var(--main-hue), 55%, 95%);
+    background-color: hsl(215, 55%, 95%);
 
 }
 header {
     padding: 1em 0;
     margin: 0;
-    background-color: hsla(var(--main-hue), 55%, 25%, 0.98);
-    border-top: 10px solid hsl(var(--main-hue), 55%, 35%);
-    box-shadow: 0 1px 0 hsl(var(--main-hue), 55%, 25%);
+    background-color: hsla(215, 55%, 25%, 0.98);
+    border-top: 10px solid hsl(215, 55%, 35%);
+    box-shadow: 0 1px 0 hsl(215, 55%, 25%);
 }
 header,
 .header__link {
-    color: hsl(var(--main-hue), 55%, 75%);
+    color: hsl(215, 55%, 75%);
     text-decoration: none;
 }
 .header__link:hover {
-    color: hsl(var(--main-hue), 55%, 95%);
+    color: hsl(215, 55%, 95%);
 }
 
 header section,
@@ -38,7 +38,7 @@ header section,
     margin-top: 1px;
     margin-bottom: 4em;
     background: #fff;
-    border: 1px solid hsl(var(--main-hue), 55%, 90%);
+    border: 1px solid hsl(215, 55%, 90%);
     border-width: 0 1px 1px 1px;
     border-radius: 0 0 5px 5px;
 }
