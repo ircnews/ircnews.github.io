@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "irccloud/irccat: cat to IRC"
+date: 2017-01-28 18:41:01
 link: https://github.com/irccloud/irccat
 categories: link
 ---
