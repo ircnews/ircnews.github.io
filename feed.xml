@@ -1,0 +1,40 @@
+---
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text" xml:lang="en">{{ site.title | xml_escape }}</title>
+  <subtitle>{{ site.description | xml_escape }}</subtitle>
+  <link type="application/atom+xml" href="{{ site.url }}/{{ page.path }}" rel="self"/>
+  <link type="text/html" href="{{ site.url }}" rel="alternate"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}/{{ page.path }}</id>
+  <author>
+    <name>{{ site.title | xml_escape }}</name>
+  </author>
+  <rights>© {{ site.title | xml_escape }} {{ site.time | date:"%Y" }}</rights>
+
+  {% for post in site.posts limit:20 %}
+  <entry>
+    <title>{{ post.title | xml_escape }}</title>
+    {% if post.link %}
+        <link href="{{ post.link | xml_escape }}" rel="alternate"/>
+        <link href="{{ site.url }}{{ post.url }}" rel="related"/>
+    {% else %}
+        <link href="{{ site.url }}{{ post.url }}" rel="alternate"/>
+    {% endif %}
+    <published>{{ post.date | date_to_xmlschema }}</published>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <id>{{ site.url }}{{ post.id }}</id>
+    <content type="html" xml:base="{{ site.url }}/" xml:lang="en">
+        <![CDATA[
+        {% if post.link %}
+        <h3><a href="{{ post.link|xml_escape }}">
+            {{ post.link|remove_first:"http://"|remove_first:"https://"|xml_escape }}
+        </a></h3>
+        {% endif %}
+        {{ post.content }}
+        ]]>
+    </content>
+  </entry>
+  {% endfor %}
+</feed>

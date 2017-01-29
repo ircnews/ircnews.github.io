@@ -23,18 +23,23 @@ header a {
     color: hsl(215, 55%, 75%);
     text-decoration: none;
 }
-.header__link:hover {
+header a:hover {
     color: hsl(215, 55%, 95%);
 }
 
-.twitter-follow-button {
+.header__links {
+    line-height: 2.5;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    text-align: right;
     font-family: 'Roboto', sans-serif;
     font-size: 0.8em;
-    float: right;
 }
 
 header section,
 .content {
+    position: relative;
     max-width: 50em;
     margin: 0 auto;
     padding: 1px 160px;
@@ -63,6 +68,9 @@ h3 {
 h4 {
     font-size: 1em;
 }
+a img {
+    border: 0;
+}
 .header {
     position: relative;
     margin: 0;
@@ -72,8 +80,6 @@ h4 {
     text-shadow: 1px 1px 1px hsla(188, 55%, 0%, 1);
 }
 .header__logo {
-    border: 0;
-    outline: 0;
     position: absolute;
     top: 8px;
     left: -55px;

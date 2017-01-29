@@ -7,7 +7,7 @@
 </h2>
 {% if page.link %}
 <h3 class="postInfo">
-    {{ page.link|remove_first:"http://"|remove_first:"https://" }}
+    {{ page.link|remove_first:"http://"|remove_first:"https://"|escape }}
 </h3>
 </a>{% endif %}
 

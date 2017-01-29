@@ -24,7 +24,11 @@
         <span class="header__title">{{ site.title }}</span>
         </a>
         </h1>
-        <a href="https://twitter.com/IRCLinks" class="twitter-follow-button" data-show-count="false">Follow @IRCLinks</a>
+        <div class="header__links">
+            <a href="{{ site.url }}/feed.xml">📡&nbsp;&nbsp;RSS Feed</a>
+            <br>
+            <a href="https://twitter.com/IRCLinks" class="twitter-follow-button" data-show-count="false">Follow @IRCLinks</a>
+        </div>
         <div class="header__strap">{{ site.description }}</div>
     </section>
 </header>
