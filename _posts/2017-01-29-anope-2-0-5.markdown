@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Anope 2.0.5 Released"
+date: 2017-01-29 14:40:00
+link: https://anope.org/news.php?id=84
+categories: link
+---
+> Anope 2.0.5 has been released, which contains bug fixes, and several new features
