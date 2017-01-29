@@ -20,12 +20,18 @@ header {
     box-shadow: 0 1px 0 hsl(215, 55%, 25%);
 }
 header,
-.header__link {
+header a {
     color: hsl(215, 55%, 75%);
     text-decoration: none;
 }
 .header__link:hover {
     color: hsl(215, 55%, 95%);
+}
+
+.twitter-follow-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    float: right;
 }
 
 header section,
