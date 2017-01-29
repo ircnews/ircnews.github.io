@@ -72,6 +72,8 @@ h4 {
     text-shadow: 1px 1px 1px hsla(188, 55%, 0%, 1);
 }
 .header__logo {
+    border: 0;
+    outline: 0;
     position: absolute;
     top: 8px;
     left: -55px;
