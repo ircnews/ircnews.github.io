@@ -9,7 +9,14 @@
         {% endif %}
         {% unless page.override_title %}{{ site.title }}{% endunless %}
     </title>
-    <link rel="icon" type="image/png" href="/favicon.png" sizes="64x64">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#203e66">
+    <meta name="apple-mobile-web-app-title" content="{{ site.title }}">
+    <meta name="application-name" content="{{ site.title }}">
+    <meta name="theme-color" content="#203e66">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css?{{ site.time | date: '%s%N' }}">
     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
