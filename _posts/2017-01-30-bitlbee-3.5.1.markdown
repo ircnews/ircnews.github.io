@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Bitlbee 3.5.1 Released"
+date: 2017-01-30 18:31:00
+link: https://www.bitlbee.org/main.php/changelog.html#version-3.5.1
+categories: link
+---
+> BitlBee 3.5.1 is out, fixing one remote crash issue with bitlbee-libpurple.
+
+via [@BitlBee](https://twitter.com/bitlbee/status/826130594077736960) on Twitter.
