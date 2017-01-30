@@ -1,6 +1,5 @@
 <article class="post">
 
-<a class="postPermalink" href="{{ page.url }}">{{ page.date|date:"%d %b %Y" }}</a>
 {% if page.link %}<a class="postLink" href="{{ page.link }}">{% endif %}
 <h2 class="postTitle">
     {{ page.title }}
@@ -10,6 +9,7 @@
     {{ page.link|remove_first:"http://"|remove_first:"https://"|escape }}
 </h3>
 </a>{% endif %}
+<a class="postPermalink" href="{{ page.url }}">{{ page.date|date:"%d %b %Y" }}</a>
 
 {{ page.content }}
 

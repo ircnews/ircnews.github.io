@@ -9,6 +9,8 @@
         {% endif %}
         {% unless page.override_title %}{{ site.title }}{% endunless %}
     </title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i|Roboto+Slab:300,400|Roboto:300,300i,400,400i" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css?{{ site.time | date: '%s%N' }}">
@@ -34,12 +36,12 @@
         <span class="header__title">{{ site.title }}</span>
         </a>
         </h1>
+        <div class="header__strap">{{ site.description }}</div>
         <div class="header__links">
             <a href="{{ site.url }}/feed.xml">📡&nbsp;&nbsp;RSS Feed</a>
             <br>
             <a href="https://twitter.com/IRCLinks" class="twitter-follow-button" data-show-count="false">Follow @IRCLinks</a>
         </div>
-        <div class="header__strap">{{ site.description }}</div>
     </section>
 </header>
 

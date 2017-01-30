@@ -6,10 +6,11 @@ body {
     font-family: 'Roboto Slab', serif;
     color: #222;
     font-weight: 400;
-    background-size: 20px 29px;
-    background-position: 2px 2px;
+}
+@media only screen and (min-width: 700px) {
+body {
     background-color: hsl(215, 55%, 95%);
-
+}
 }
 header {
     padding: 1em 0;
@@ -29,28 +30,45 @@ header a:hover {
 
 .header__links {
     line-height: 2.5;
-    position: absolute;
-    top: 10px;
-    right: 160px;
-    text-align: right;
     font-family: 'Roboto', sans-serif;
     font-size: 0.8em;
 }
 
+@media only screen and (min-width: 700px) {
+.header__links {
+    position: absolute;
+    top: 10px;
+    right: 160px;
+    text-align: right;
+}
+}
+
+
 header section,
 .content {
     position: relative;
-    max-width: 50em;
     margin: 0 auto;
-    padding: 1px 160px;
+    padding: 1px 20px 0 45px;
+}
+@media only screen and (min-width: 700px) {
+header section,
+.content {
+    padding-right: 160px;
+    padding-left: 160px;
+    max-width: 50em;
+}
 }
 .content {
     margin-top: 1px;
-    margin-bottom: 4em;
     background: #fff;
+}
+@media only screen and (min-width: 700px) {
+.content {
+    margin-bottom: 4em;
     border: 1px solid hsl(215, 55%, 90%);
     border-width: 0 1px 1px 1px;
     border-radius: 0 0 5px 5px;
+}
 }
 h1,h2,h3,h4,h5,h6 {
     margin: 0;
@@ -82,7 +100,12 @@ a img {
 .header__logo {
     position: absolute;
     top: 8px;
+    right: 20px;
+}
+@media only screen and (min-width: 700px) {
+.header__logo {
     left: -55px;
+}
 }
 .header__strap {
     font-family: 'Roboto', sans-serif;
@@ -125,9 +148,6 @@ blockquote {
     font-size: 1em;
 }
 .postPermalink {
-    position: absolute;
-    top: 5px;
-    left: -120px;
     font-size: 0.9em;
     color: #999;
     text-decoration: none;
@@ -136,6 +156,13 @@ blockquote {
 .postPermalink:hover {
     color: #333;
     text-decoration: underline;
+}
+@media only screen and (min-width: 700px) {
+.postPermalink {
+    position: absolute;
+    top: 5px;
+    left: -120px;
+}
 }
 
 footer {
