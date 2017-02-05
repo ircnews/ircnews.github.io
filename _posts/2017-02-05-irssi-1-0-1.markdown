@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Irssi 1.0.1 Released"
+date: 2017-02-05T21:23:33Z
+link: https://irssi.org/2017/02/05/irssi-1.0.1-released/
+categories: link
+---
+Bug fix release for irssi 1.0
+
+> Most importantly, a mistake that broke tab completion of settings and aliases has been corrected, as well as a memory leak during SASL found by Joseph Bisch.
