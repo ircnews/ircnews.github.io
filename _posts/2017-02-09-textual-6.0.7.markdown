@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Textual 6.0.7 released"
+date: 2017-02-09T22:49:54Z
+link: https://help.codeux.com/textual/release-notes/Release-Notes:-Version-6.0.7.kb
+categories: link
+---
+The latest release of [Textual](https://www.codeux.com/textual/) is out adding context menu items for ignoring users, improved performance and bug fixes.
