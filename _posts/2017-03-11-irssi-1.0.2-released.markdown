@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Irssi 1.0.2 Released"
+date: 2017-03-11T22:04:32Z
+link: https://irssi.org/2017/03/11/irssi-1.0.2-released/
+categories: link
+---
+> This release fixes a remote crash issue in Irssi 1.0 as well as a few bug fixes, the most notable a regression that broke incoming DCC file transfers. There are no new features.
