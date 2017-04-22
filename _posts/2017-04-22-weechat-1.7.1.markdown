@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Weechat 1.7.1"
+date: 2017-04-22T23:42:09 01:00
+link: https://weechat.org/news/95/20170422-Version-1.7.1/
+categories: link
+---
+> Version 1.7.1 is available, it fixes a security problem: a crash can happen in IRC plugin when parsing the filename received via DCC.
