@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "mIRC 7.48 released"
+date: 2017-04-24T18:19:22 01:00
+link: http://forums.mirc.com/ubbthreads.php/topics/260388/mIRC_7.48_released
+categories: link
+---
+A few updates of note, including SASL/NickServ support, CAP support for extended-join, account-notify, away-notify, account-tag, invite-notify, and chghost, and various SSL/TLS improvements. 
