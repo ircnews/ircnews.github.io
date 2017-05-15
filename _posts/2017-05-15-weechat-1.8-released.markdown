@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Weechat 1.8 released"
+date: 2017-05-15T11:21:55 01:00
+link: http://dev.weechat.org/post/2017/05/13/Version-1.8
+categories: link
+---
+> As usual, many new features and bug fixes, see ChangeLog for detail.
+> Important: please read the release notes if you are upgrading to this version (from any other version).
