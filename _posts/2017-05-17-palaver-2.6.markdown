@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Palaver 2.6"
+date: 2017-05-17T14:23:59 01:00
+link: https://cocode.org/blog/palaver-26/
+categories: link
+---
+Updates include notification improvements, new commands and a slew of IRCv3 capabilities.
