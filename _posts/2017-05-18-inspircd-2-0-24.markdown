@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "InspIRCd 2.0.24 Released"
+date: 2017-05-18 14:40:00
+link: https://www.inspircd.org/2017/05/18/v2024-released.html
+categories: link
+---
+> This release contains minor bug fixes, including fixes to the build system and module manager to work on newer perl versions (>5.24.1) which are common on newer systems. All users are recommended to upgrade.
